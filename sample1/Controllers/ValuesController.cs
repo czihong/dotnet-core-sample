@@ -31,7 +31,7 @@ namespace sample1.Controllers
 
         // PUT api/values/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
+        public void Put(int id, string value)
         {
         }
 
